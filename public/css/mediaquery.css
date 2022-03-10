@@ -1,0 +1,111 @@
+@media(max-width:935px){
+    
+    .barra-topo{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .topo-instagram{
+        margin-left: 20px;
+    }
+    .topo-icones{
+        margin-right: 20px;
+    }
+    .div-side-bar{
+        display: none;
+    }
+}
+
+@media(max-width:614px){
+    .action-bar{
+        width: 100vw;
+        height: 54px;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #FFFFFF;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+    }
+    .action-bar ion-icon{
+        width: 22px;
+        height: 22px;
+    }
+    .barra-topo{
+        display: none;
+    }
+    .barra-topo-mobile{
+        width: 100vw;
+        height: 54px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        background-color: #FFFFFF;
+
+    }
+
+    .barra-topo-mobile .topo{
+        width: 100vw;
+        height: 54px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .separador-horizontal-mobile{
+        height: 1px;
+        width: 100vw;
+        background-color: #DBDBDB;
+
+    }
+    
+
+
+    .barra-topo-mobile .logo{
+        margin-left: 10px;
+    }
+
+    .barra-topo-mobile ion-icon{
+        width: 22px;
+        height: 22px;
+        margin-right: 10px;
+    }
+    .separador-horizontal{
+        width: 100%;
+        height: 1px;
+        background-color: #DBDBDB;
+        margin-bottom: 17px;
+    }
+    .corpo-site{
+        width: 100vw;
+        margin-top: 71px ;
+    }
+    .conteudo{
+        width: 100vw;
+    }
+
+    .caixa-stories{
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        width: calc(100vw - 2px);
+    }
+    
+    .caixa-stories .vetor{
+        display: none;
+    }
+
+    .stories-margem{
+        width: 100vw;
+    }
+
+    .caixa-feed{
+        width: calc(100vw - 2px);
+    }
+
+    .caixa-feed .post{ 
+        width: 100%;
+    }
+}

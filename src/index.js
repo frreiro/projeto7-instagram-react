@@ -1,14 +1,15 @@
 import reactDom from "react-dom";
-import BarraTopo from "./componentes/BarraTopo";
-import BarraTopoMobile from "./componentes/BarraTopoMobile";
+import ActionBar from "./componentes/ActionBar";
 import Corpo from "./componentes/Corpo";
+import Navbar from "./componentes/Navbar";
+
 
 function App() {
     return (
         <div>
-            <BarraTopo />
-            <BarraTopoMobile />
-            <Corpo/>
+            <Navbar />
+            <Corpo />
+            <ActionBar />
         </div>
     )
 }

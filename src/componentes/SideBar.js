@@ -1,80 +1,43 @@
+import Sugestao from "./Sugestao";
+
+
+const sugestoes = [
+    {user: "assets/img/bad.vibes.memes.svg", name: "bad.vibes.memes" },
+    {user: "assets/img/chibirdart.svg", name: "chibirdart" },
+    {user:"assets/img/razoesparaacreditar.svg", name:"razoesparaacreditar"},
+    {user:"assets/img/adorable_animals.svg", name:"adorable_animals"},
+    {user:"assets/img/smallcutecats.svg", name:"smallcutecats"}
+]
+
+
+
 export default function SideBar() {
     return (
-        <div class="sidebar">
-            <div class="usuario">
+        <aside class="sidebar">
+            <header class="usuario">
                 <img src="assets/img/catanacomics.svg" />
                 <div class="texto">
                     <strong>catanacomics</strong>
                     Catana
                 </div>
-            </div>
+            </header>
 
-            <div class="sugestoes">
-                <div class="titulo">
+            <main class="sugestoes">
+                <section class="titulo">
                     Sugestões para você
                     <div>Ver tudo</div>
-                </div>
+                </section>
+                {sugestoes.map((sugestao)=>{
+                    const {user, name} = sugestao;
+                    return (
+                        <Sugestao
+                        userImg={user}
+                        userName={name}
+                    />
+                    )
+                })}
 
-                <div class="sugestao">
-                    <div class="usuario">
-                        <img src="assets/img/bad.vibes.memes.svg" />
-                        <div class="texto">
-                            <div class="nome">bad.vibes.memes</div>
-                            <div class="razao">Segue você</div>
-                        </div>
-                    </div>
-
-                    <div class="seguir">Seguir</div>
-                </div>
-
-                <div class="sugestao">
-                    <div class="usuario">
-                        <img src="assets/img/chibirdart.svg" />
-                        <div class="texto">
-                            <div class="nome">chibirdart</div>
-                            <div class="razao">Segue você</div>
-                        </div>
-                    </div>
-
-                    <div class="seguir">Seguir</div>
-                </div>
-
-                <div class="sugestao">
-                    <div class="usuario">
-                        <img src="assets/img/razoesparaacreditar.svg" />
-                        <div class="texto">
-                            <div class="nome">razoesparaacreditar</div>
-                            <div class="razao">Novo no Instagram</div>
-                        </div>
-                    </div>
-
-                    <div class="seguir">Seguir</div>
-                </div>
-
-                <div class="sugestao">
-                    <div class="usuario">
-                        <img src="assets/img/adorable_animals.svg" />
-                        <div class="texto">
-                            <div class="nome">adorable_animals</div>
-                            <div class="razao">Segue você</div>
-                        </div>
-                    </div>
-
-                    <div class="seguir">Seguir</div>
-                </div>
-
-                <div class="sugestao">
-                    <div class="usuario">
-                        <img src="assets/img/smallcutecats.svg" />
-                        <div class="texto">
-                            <div class="nome">smallcutecats</div>
-                            <div class="razao">Segue você</div>
-                        </div>
-                    </div>
-
-                    <div class="seguir">Seguir</div>
-                </div>
-            </div>
+            </main>
 
             <div class="links">
                 Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma
@@ -83,6 +46,6 @@ export default function SideBar() {
             <div class="copyright">
                 © 2021 INSTAGRAM DO FACEBOOK
             </div>
-        </div>
+        </aside>
     )
 }

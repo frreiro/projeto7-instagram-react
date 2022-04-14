@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+<div align="center">
+  <img width="100" height="100" src="https://user-images.githubusercontent.com/98192816/163442464-5bfe12ff-3069-44a0-85da-df352ad9d434.png" />
+</div>
+<h1 align="center">Instagram - React</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 💻 Sobre o projeto
 
-In the project directory, you can run:
 
-### `npm start`
+O projeto é uma refatoração do Projeto2-Instagram usando React.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+O projeto teve como requisito o uso de React e introduziu alguns conceitos como:
+  - Componentização
+  - Uso de props
+  - Map e Destructing
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🖥️ Web
 
-### `npm test`
+<p align="center">
+  <img width="400" height="268" alt="print-instagram-react
+o.com" src="https://user-images.githubusercontent.com/98192816/163470151-ec36eade-5da9-4ffc-b989-687eda3b5638.png">
+</p><br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📱 Mobile
 
-### `npm run build`
+<p align="center">
+    <img width="600" height="346" alt="print-instagram-react.com" src="https://user-images.githubusercontent.com/98192816/163470143-d442df1c-5f12-40cd-8475-223c246bbf1c.png">
+</p><br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Tecnologias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+As seguintes ferramentas foram usadas na construção do projeto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  - HTML
+  - CSS
+  - Javascript
+  - [React](https://pt-br.reactjs.org/)
 
-### `npm run eject`
+## 🎨 Deploy
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ O deploy do projeto pode ser econtrado no seguinte link: 
+  
+  <a href="https://projeto7-instagram-react-ten.vercel.app/">
+  <img alt="deploy-site" src="https://img.shields.io/badge/Link%20Deploy%20-Site-%2304D361">
+</a>
